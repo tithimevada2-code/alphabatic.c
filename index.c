@@ -33,3 +33,24 @@ int main()
 
     return 0;
 }
+
+#include<stdio.h>
+int main()
+{
+    int Num, first, last, sum;
+
+    printf("Enter a Number:");
+    scanf("%d",&Num);
+    last = Num;
+    while (first >=10)
+        {
+            first = first /10;
+        }
+    sum = first + last;
+
+    printf("First Digit =%d\n", irst);
+    printf("Last Digit +%d/n",last);
+    printf("sum=%d",sum);
+
+    return 0;
+}
